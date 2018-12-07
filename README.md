@@ -13,7 +13,7 @@ python InkData_word.py
 python InkData_line.py
 python InkData_paragraph.py
 ```
-All data after extracting will be stored in `InkData_word_processed`, `InkData_line_processed` and `InkData_paragraph_processed` folder. Output will must be like this:
+All data after extracting will be stored in `InkData_word_processed`, `InkData_line_processed` and `InkData_paragraph_processed` folder. Output will be like this:
 <p align="center"> 
 <img src="example.png">
 </p>
