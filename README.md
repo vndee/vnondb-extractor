@@ -13,5 +13,5 @@ python InkData_word.py
 python InkData_line.py
 python InkData_paragraph.py
 ```
-Output images must be like this:
+All data after extracting will be stored in `InkData_word_processed`, `InkData_line_processed` and `InkData_paragraph_processed` folder. Output images must be like this:
 ![](example.png)
