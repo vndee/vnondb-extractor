@@ -14,4 +14,6 @@ python InkData_line.py
 python InkData_paragraph.py
 ```
 All data after extracting will be stored in `InkData_word_processed`, `InkData_line_processed` and `InkData_paragraph_processed` folder. Output will must be like this:
-![](example.png)
+<p align="center"> 
+<img src="example.png">
+</p>
