@@ -1,3 +1,7 @@
+""" Duy Huynh 2018 @ MIT License   
+    VNOnDB2018 dataset extractor tool
+"""
+
 import sys, os, argparse
 import xml.etree.ElementTree as ET
 import numpy as np
@@ -78,8 +82,6 @@ def makeLabelingImage(input_path, output_base_path):
         plt.gcf().clear()
 
 if __name__ == '__main__':
-    #logger = open('log.txt', 'w+')
-
     if not os.path.exists(targetFolder): 
         os.mkdir(targetFolder)
 
@@ -95,6 +97,3 @@ if __name__ == '__main__':
         print(numberOfFile)
         fileName = fileData.split('/')[1]
         makeLabelingImage(fileData, fileName.split('.')[0])
-
-    #makeLabelingImage('20140603_0003_BCCTC.inkml', '20140603_0003_BCCTC')
-    #logger.close()
