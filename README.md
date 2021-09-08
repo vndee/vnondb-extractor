@@ -8,7 +8,7 @@ HANDS-VNOnDB (VNOnDB in short) provides 1,146 Vietnamese paragraphs of handwritt
 
 More at: [ICFHR2018-VOHTR-VNOnDB](https://sites.google.com/view/icfhr2018-vohtr-vnondb/database-tools?authuser=0)
 
-## Useage:
+## Usage:
 ```bash
 pip install -r requirements.txt
 python InkData_word.py
